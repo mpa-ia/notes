@@ -19,6 +19,7 @@ class List extends React.Component {
     columns: PropTypes.array,
   }
   static defaultProps = {
+    image: settings.defaultHeroImage,
     description: settings.defaultListDescription,
   }
   
