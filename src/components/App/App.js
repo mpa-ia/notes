@@ -11,16 +11,16 @@ class App extends React.Component {
   addList(title, description, image) {
     this.setState(state => (
       {
-       lists: [
-         ...state.lists, 
-         {
-           key: state.lists.length ? state.lists[state.lists.length-1].key+1 : 0,
+        lists: [
+          ...state.lists, 
+          {
+            key: state.lists.length ? state.lists[state.lists.length-1].key+1 : 0,
             title,
             description: description || settings.defaultListDescription,
             image: image || settings.defaultHeroImage,
-            columns: []
-         }
-       ]
+            columns: [],
+          },
+        ],
       }
     ));
   }
@@ -33,12 +33,12 @@ class App extends React.Component {
           {this.state.lists.map(({key, ...listProps}) => (
             <List key={key} {...listProps} />
           ))}
-       </div>
+        </div>
         <div className={styles.creator}>
           <Creator text={settings.listCreatorText} action={title => this.addList(title)} />
         </div>
       </main>
-    )
+    );
   }
 }
 

@@ -8,13 +8,13 @@ class Card extends React.Component {
       title: PropTypes.string,
     }
 
-  render() {
-    return (
-      <section className={styles.component}>
-        <h3>{this.props.title}</h3>
-      </section>
-    )
-  }
+    render() {
+      return (
+        <section className={styles.component}>
+          <h3>{this.props.title}</h3>
+        </section>
+      );
+    }
 }
 
 export default Card;
