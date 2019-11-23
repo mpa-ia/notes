@@ -7,9 +7,14 @@ export const settings = {
     buttonCancel: 'Cancel',
     defaultText: 'Add new item',
   },
+  search: {
+    defaultText: 'Search...',
+    icon: 'search',
+  },
   defaultHeroImage: 'https://i.ibb.co/pKcgkg7/Eye.png',
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+
 };
 
 export const pageContents = {
