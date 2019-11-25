@@ -8,7 +8,7 @@ const reducerName = 'searchString';
 const createActionName = name => `app/${reducerName}/${name}`;
 
 // actions types
-export const CHANGE_STRING =  createActionName('CHANGE_STRING');
+export const CHANGE_STRING = createActionName('CHANGE_STRING');
 
 // action creators
 export const createAction_changeSearchString = payload => ({payload, type: CHANGE_STRING });
