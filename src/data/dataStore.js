@@ -7,6 +7,9 @@ export const settings = {
     buttonCancel: 'Cancel',
     defaultText: 'Add new item',
   },
+  header: {
+    icon: 'bullseye',
+  },
   search: {
     defaultText: 'Search...',
     icon: 'search',
@@ -151,6 +154,7 @@ const cards = [
     index: 1,
   },
 ];
+
 
 const initialStoreData = {
   app: {...pageContents},
