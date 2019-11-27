@@ -9,6 +9,17 @@ export const settings = {
   },
   header: {
     icon: 'bullseye',
+    links: {
+      home: {
+        title: 'Home',
+        path: '/',
+      },
+      info: {
+        title: 'Info',
+        path: '/info',
+      },
+      active: 'active',
+    },
   },
   search: {
     defaultText: 'Search...',

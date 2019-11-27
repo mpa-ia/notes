@@ -13,16 +13,17 @@ class Header extends React.Component {
     }
 
     render () {
+      const { home, info, active } = settings.header.links;
       return (
         <header className={styles.component}>
           <Container>
             <div className={styles.wrapper}>
-              <Link className={styles.logo} to='/'>
+              <Link className={styles.logo} to={home.path}>
                 <Icon name={settings.header.icon}/>
               </Link>
               <nav>
-                <NavLink exact to='/' activeClassName='active'>Home</NavLink>
-                <NavLink exact to='/info' activeClassName='active'>Info</NavLink>   
+                <NavLink exact to={home.path} activeClassName={active}>{home.title}</NavLink>
+                <NavLink exact to={info.path} activeClassName={active}>{info.title}</NavLink>   
               </nav>
             </div>
           </Container>
