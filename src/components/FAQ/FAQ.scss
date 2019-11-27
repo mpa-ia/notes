@@ -1,0 +1,17 @@
+@import '../../styles/settings.scss';
+
+.article {
+    background: $color-light;
+    padding: $base-size * 1.5;
+    margin: $base-size;
+    border-radius: $radius;
+}
+.question {
+    color: $color-warning;
+    font-size: $base-size * 1.5;
+    margin: 0;
+} 
+.answer {
+    color: $color-dark;
+    margin: $base-size 0 0 0;
+}

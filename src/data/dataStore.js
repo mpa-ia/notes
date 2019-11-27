@@ -43,6 +43,20 @@ export const infoContent = {
 export const faqContent = {
   title: 'FAQ',
   description: 'Before you ask see frequently asked questions',
+  qa: {
+    qa1: {
+      question: 'Can I add custom Column?',
+      answer: 'Yes, just insert column title and click OK',
+    },
+    qa2: {
+      question: 'Can I add custom card?',
+      answer: 'Yes, just insert card title and click OK',
+    },
+    qa3: {
+      question: 'Can I add custom list?',
+      answer: 'We  are workig on this, will be available soon',
+    },
+  },
 };
 
 export const pageContents = {
