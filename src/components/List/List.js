@@ -41,7 +41,6 @@ class List extends React.Component {
             <Creator text={settings.columnCreatorText} action={addColumn} />
           </div>
         </Container>
-
       </section>
     );
   }
