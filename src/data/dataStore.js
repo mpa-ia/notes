@@ -119,12 +119,25 @@ export const listData = [
     ],
   },
 ];
+
 const lists = [
   {
     id: 'list-1',
     title: 'Things to do <sup>soon!</sup>',
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-2',
+    title: 'Upcoming charges',
+    description: 'It must be paid...',
+    image: 'https://images.pexels.com/photos/1602726/pexels-photo-1602726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+  },
+  {
+    id: 'list-3',
+    title: 'HOLIDAY',
+    description: 'Even tommorow...',
+    image: 'https://images.pexels.com/photos/33622/fashion-model-beach-hat.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
   },
 ];
 
@@ -150,8 +163,26 @@ const columns = [
   {
     id: 'column-4',
     listId: 'list-2',
-    title: 'Strange column',
-    icon: 'question',
+    title: 'Home',
+    icon: 'home',
+  },
+  {
+    id: 'column-5',
+    listId: 'list-2',
+    title: 'Children',
+    icon: 'person',
+  },
+  {
+    id: 'column-6',
+    listId: 'list-2',
+    title: 'Car',
+    icon: 'car',
+  },
+  {
+    id: 'column-7',
+    listId: 'list-3',
+    title: 'Europe',
+    icon: 'world',
   },
 ];
 
@@ -187,10 +218,64 @@ const cards = [
     index: 0,
   },
   {
-    id: 'card-6',
+    id: 'card-7',
     columnId: 'column-3',
     title: 'Skyrim',
     index: 1,
+  },
+  {
+    id: 'card-8',
+    columnId: 'column-4',
+    title: 'Electricity',
+    index: 0,
+  },
+  {
+    id: 'card-9',
+    columnId: 'column-4',
+    title: 'Internet',
+    index: 1,
+  },
+  {
+    id: 'card-10',
+    columnId: 'column-4',
+    title: 'Heating',
+    index: 2,
+  },
+  {
+    id: 'card-11',
+    columnId: 'column-5',
+    title: 'English lessons',
+    index: 0,
+  },
+  {
+    id: 'card-12',
+    columnId: 'column-5',
+    title: 'Ski',
+    index: 1,
+  },
+  {
+    id: 'card-13',
+    columnId: 'column-6',
+    title: 'Repair',
+    index: 0,
+  },
+  {
+    id: 'card-14',
+    columnId: 'column-7',
+    title: 'Porto',
+    index: 0,
+  },
+  {
+    id: 'card-15',
+    columnId: 'column-7',
+    title: 'Iceland',
+    index: 1,
+  },
+  {
+    id: 'card-16',
+    columnId: 'column-7',
+    title: 'Tatra Mountains',
+    index: 2,
   },
 ];
 
