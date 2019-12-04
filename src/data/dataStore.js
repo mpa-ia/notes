@@ -170,7 +170,7 @@ const columns = [
     id: 'column-5',
     listId: 'list-2',
     title: 'Children',
-    icon: 'person',
+    icon: 'book',
   },
   {
     id: 'column-6',
@@ -182,7 +182,7 @@ const columns = [
     id: 'column-7',
     listId: 'list-3',
     title: 'Europe',
-    icon: 'world',
+    icon: 'map',
   },
 ];
 
