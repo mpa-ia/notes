@@ -60,8 +60,8 @@ export const faqContent = {
 };
 
 export const pageContents = {
-  title: 'My first React app',
-  subtitle: 'A simple to-do app, with lists, columns and cards',
+  title: 'Note it and just do it!',
+  subtitle: 'Group your tasks and make them easy to find',
 };
 
 export const listData = [
